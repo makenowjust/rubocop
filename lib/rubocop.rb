@@ -703,6 +703,7 @@ require_relative 'rubocop/cop/security/eval'
 require_relative 'rubocop/cop/security/io_methods'
 require_relative 'rubocop/cop/security/json_load'
 require_relative 'rubocop/cop/security/marshal_load'
+require_relative 'rubocop/cop/security/non_linear_regexp'
 require_relative 'rubocop/cop/security/open'
 require_relative 'rubocop/cop/security/yaml_load'
 

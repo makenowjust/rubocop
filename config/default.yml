@@ -2984,6 +2984,12 @@ Security/MarshalLoad:
   Enabled: true
   VersionAdded: '0.47'
 
+Security/NonLinearRegexp:
+  Description: Avoid using of non-linear features in regexp literals due to the risk of ReDoS.
+  Enabled: true
+  VersionAdded: '1.53'
+  Safe: false
+
 Security/Open:
   Description: 'The use of `Kernel#open` and `URI.open` represent a serious security risk.'
   Enabled: true
